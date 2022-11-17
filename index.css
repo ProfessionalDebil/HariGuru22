@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+    background-color: black;
+}
+
+.background {
+    position: relative;
+    z-index: -1;
+}
+
+.backgroundImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.main {
+    color: white;
+}
+
+.mainTitle {
+    font-size: 26px;
+}
+
+.mainLetter {
+    font-size: 35px;
+    white-space: pre-line;
+}

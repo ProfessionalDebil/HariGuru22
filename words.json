@@ -1,0 +1,21 @@
+nameList = ["Bu Irda", "Pak Rian", "Pak Frans", "Pak Firmus", "Pak Diki", "Pak Sito", "Pak Edo", "Pak Robby", "Pak Gio", "Pak Wator", "Mr. Nick",
+            "Pak Roland", "Bu Metha", "Bu Lisna", "Laoshi Jinny", "Bu Novi", "Ms. Yoan", "Bu El"];
+
+letterList = [null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Thank you for all your efforts and services for us.\n\nSelamat Hari Guru Bu Metha, maafin anak murid mu ini yg kadang susah memahami materi yang Bu Metha kasih.... Makasih untuk kesabaran bu metha ke X MIPA ini.\n\nKami sayang Bu Metha.",
+              null,
+              null,
+              null,
+              null,
+              null]
