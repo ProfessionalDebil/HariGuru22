@@ -16,6 +16,7 @@ body {
     width: 100%;
     height: auto;
     opacity: 0.7;
+    animation: fadeIn 2s;
 }
 
 .main {
@@ -30,3 +31,8 @@ body {
     font-size: 35px;
     white-space: pre-line;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 0.7; }
+  }
