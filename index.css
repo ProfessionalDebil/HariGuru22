@@ -27,6 +27,7 @@ body {
 
 .main {
     color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .mainTitle {
@@ -36,6 +37,7 @@ body {
 .mainLetter {
     font-size: 35px;
     white-space: pre-line;
+    position: relative;
 }
 
 @keyframes fadeIn {
@@ -61,4 +63,30 @@ body {
 @-ms-keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 0.7; }
+}
+
+/*#letterContainer {
+    transition: 1s;
+    left: 0;
+}*/
+
+.quote {
+    left: -500px;
+    position: relative;
+    animation: letterSlide 1s forwards;
+    padding: 0px;
+    margin: 0px;
+}
+
+.quoteObject {
+    padding: 0px;
+    margin: 0px;
+}
+
+.quoteContainer {
+    display: inline-block;
+}
+
+@keyframes letterSlide {
+    100% { left: 0px; }
 }

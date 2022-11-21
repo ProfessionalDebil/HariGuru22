@@ -38,3 +38,9 @@ bgList = ["bg_bio.jpg",
           "bg_kim.jpg",
           null,
           null]
+
+quoteList = ["Karena pendampingan dan pengajaranmu yang tulus kami berterima kasih hari ini dan setiap hari. Selamat Hari Guru!",
+             "Thankyou for being such an important piece to our story.",
+             "Thank you for all your efforts and services for us.",
+             "Selamat Hari Guru! Terima kasih sudah sabar mengajariku.",
+             "Guru kau adalah malaikatku, engkau rela menyisihkan waktu demi anak bangsa."]

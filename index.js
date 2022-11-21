@@ -24,3 +24,35 @@ if (letter != null) {
 if (bg != null) {
     bgContainer.src = bgList[type];
 }
+
+let quoteContainer = document.getElementById("quoteContainer")
+
+function createQuote(content) {
+    let quote = document.createElement("div");
+    quote.classList.add("quote");
+    let quoteObject = document.createElement("p");
+    let nameObject = document.createElement("p");
+    quoteObject.textContent = content;
+    nameObject.textContent = content;
+    quoteObject.classList.add("quoteObject");
+    nameObject.classList.add("nameObject");
+
+    quote.appendChild(quoteObject);
+    quoteContainer.appendChild(quote);
+}
+
+var i = 0;
+createQuote(quoteList[i]);
+i = 1;
+
+function quoteLoop() {
+  setTimeout(function() {
+    createQuote(quoteList[i]);
+    i++;
+    if (i < quoteList.length) {
+      quoteLoop();
+    }
+  }, 1000)
+}
+
+quoteLoop();
